@@ -1,14 +1,16 @@
-/******************************************************************************
+public class Main {
+    public static void main(String args[]) {
+        int a=10;
+        float b=25.67867f;
+        double c=893;
+        char d='T';
+        String e="Java" ;
+        
+        System.out.println("int is"+a);
+        System.out.println(b);
+        System.out.println(c);
+        System.out.println(d);
+        System.out.println(e);
+    }
+} 
 
-Welcome to GDB Online.
-GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
-C#, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
-Code, Compile, Run and Debug online from anywhere in world.
-
-*******************************************************************************/
-public class Main
-{
-	public static void main(String[] args) {
-		System.out.println("Hello World");
-	}
-}
